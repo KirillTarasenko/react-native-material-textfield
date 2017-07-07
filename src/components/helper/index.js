@@ -5,9 +5,9 @@ import { View, Animated } from 'react-native';
 import styles from './styles';
 
 export default class Helper extends PureComponent {
-  static defaultProps = {
-    numberOfLines: 1,
-  };
+//   static defaultProps = {
+//     numberOfLines: 1,
+//   };
 
   static propTypes = {
     style: Animated.Text.propTypes.style,
